@@ -1,18 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Jumbotron from './Jumbotron';
+import JumbotronModal from './JumbotronModal';
 import Button from './Button';
 import Album from './Album';
+import Card from './Card';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Container } from 'reactstrap';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render((
     <Container>
-    <Jumbotron />
+    <JumbotronModal />
     {/* <Button name="John"/> */}
-    <Album />
+    <Card />
+    {/* <Album /> */}
     </Container>
     
     
